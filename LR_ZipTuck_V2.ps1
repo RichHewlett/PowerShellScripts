@@ -1,8 +1,9 @@
 ﻿#==========================================================================================================
-# Zip up Lightroom catalogue backup folders (deleting old non-zipped version), copy to remote location, 
+# Renames Adobe Lightroom catalogue backups with date, flattens folder structure, copy to remote location, 
 # retaining some zip files locally. Also housekeeps the server location (maintains X number of zip files). 
 # Just run this after exiting Lightroom (or anytime you want to clean up LR backups). If LR is running it 
 # will wait for it to close. 
+# This is for Lightroom V6 upwards (for older versions use the V1 version of this script)
 # ---------------------------------------------------------------------------------------------------------
 # 02/01/14 : V1 Creation
 # 25/09/16 : V2 Creation. Removed Zip functionality as Lightroom v6 now automatcially compresses backups 
